@@ -1,0 +1,55 @@
+.welcome{
+    background-color: black;
+    height: 100vh;
+}
+
+.welcome__link{
+    padding: 5em;
+    background-color: aliceblue;
+    font-size: 2rem;
+    
+}
+
+a{
+    text-decoration: none;
+    background-color: rgb(24, 23, 23);
+    padding: 1em 2.5em;
+    border-radius: 20px;
+    color: orangered;
+    outline: none;
+    border: none;
+    transition: all 200ms ease-in-out;
+    box-shadow: 0px 5px 10px rgba(41, 41, 41, 0.473);
+}
+
+a:hover{
+    background-color: orangered;
+    color: white;
+    box-shadow: 0px 4px 8px rgba(31, 31, 31, 0.4);  
+    transform: scale(1.5);
+}
+
+
+.welcome__card{
+    background-color: rgb(255, 68, 0);
+    max-width: 500px;
+    height: 25rem;
+    /* padding: 2em; */
+    margin: 4rem auto;
+    margin: 0 auto;
+    box-shadow: 0px 1rem 2rem rgba(0, 0, 0, 0.644);
+    border-radius: 2rem;
+}
+.welcome__card > p{
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    padding: 2em;
+    font-weight: 700;
+    color: white;
+}
+
+.welcome__card > h1{
+    color: rgb(35, 1, 1);
+    line-height: 2rem;
+    /* margin-top: ; */
+}
